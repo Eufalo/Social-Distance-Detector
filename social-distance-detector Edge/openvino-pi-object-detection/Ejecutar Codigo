@@ -1,0 +1,2 @@
+source /opt/intel/openvino/bin/setupvars.sh
+python3 openvino_real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt --model MobileNetSSD_deploy.caffemodel --input people-walk.mp4 
